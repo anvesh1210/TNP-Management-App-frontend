@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #b5a1a1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .platforms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .verbal {
+    background: rgb(255, 253, 253);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    transition: transform 0.2s ease;
+  }
+  
+  .verbal:hover {
+    transform: translateY(-5px);
+  }
+  
+  .verbal img {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .verbal h2 {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  .verbal a {
+    color: #0066cc;
+    font-weight: bold;
+    display: block;
+    margin: 8px 0;
+    text-decoration: none;
+  }
+  
+  .verbal a:hover {
+    text-decoration: underline;
+  }
+  
+  .verbal p {
+    color: #555;
+    font-size: 14px;
+  }
+
+
+  .practice-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #eef5ee;
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .practice-button:hover {
+    background-color: #aee2f1;
+  }
